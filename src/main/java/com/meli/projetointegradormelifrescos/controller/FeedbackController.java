@@ -31,7 +31,7 @@ public class FeedbackController {
     }
 
     /**
-     * Atualizar um feedback pelo ID do produto
+     * Atualizar um feedback pelo ID do Feedback
      * @author Amanda Lobo
      * @param feedbackId -> Long
      * @param feedback -> Feedback
