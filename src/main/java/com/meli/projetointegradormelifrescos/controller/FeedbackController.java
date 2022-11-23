@@ -3,7 +3,6 @@ package com.meli.projetointegradormelifrescos.controller;
 import com.meli.projetointegradormelifrescos.dto.AnnoucementDTO;
 import com.meli.projetointegradormelifrescos.dto.FeedbackDTO;
 import com.meli.projetointegradormelifrescos.model.Feedback;
-import com.meli.projetointegradormelifrescos.service.AnnoucementService;
 import com.meli.projetointegradormelifrescos.service.FeedbackService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
