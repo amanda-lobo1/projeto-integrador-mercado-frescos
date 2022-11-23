@@ -28,8 +28,7 @@ requisitos, sendo:
 - [x] Atualizar feedback de um produto
 - [x] Trazer uma lista de todos os feedbacks pelo ID do produto
 - [x] Trazer uma lista de produtos por sua nota (de 0 a 5)
-⏳ Novos requisitos são disponibilizados diariamente, por isso esta lista 
-sofrerá alterações.
+
 
 
 ### 💻 Informações relevantes
