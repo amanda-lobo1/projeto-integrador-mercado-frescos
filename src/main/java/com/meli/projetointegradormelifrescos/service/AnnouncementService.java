@@ -5,7 +5,7 @@ import com.meli.projetointegradormelifrescos.enums.Category;
 import com.meli.projetointegradormelifrescos.exception.ListIsEmptyException;
 import com.meli.projetointegradormelifrescos.exception.NotFoundException;
 import com.meli.projetointegradormelifrescos.model.Announcement;
-import com.meli.projetointegradormelifrescos.repository.AnnoucementRepo;
+import com.meli.projetointegradormelifrescos.repository.AnnouncementRepo;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 public class AnnouncementService implements IAnnoucementService {
 
     @Autowired
-    private AnnoucementRepo annoucementRepo;
+    private AnnouncementRepo annoucementRepo;
 
     /***
      *   message  método responsável por consultar todos os produtos

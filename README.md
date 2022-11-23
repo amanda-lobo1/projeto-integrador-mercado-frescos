@@ -24,7 +24,10 @@ requisitos, sendo:
 - [x] Obtenha a quantidade total de produtos por armazém.
 - [x] Obtenha todos os lotes armazenados em um setor de um armazém ordenados por sua data de vencimento.
 - [x] Obtenha uma lista de lotes dentro do prazo de validade solicitado, que pertencem a uma determinada categoria de produto.
-
+- [x] Criar feedback de um produto
+- [x] Atualizar feedback de um produto
+- [x] Trazer uma lista de todos os feedbacks pelo ID do produto
+- [x] Trazer uma lista de produtos por sua nota (de 0 a 5)
 ⏳ Novos requisitos são disponibilizados diariamente, por isso esta lista 
 sofrerá alterações.
 
@@ -127,10 +130,12 @@ Para facilitar os testes de funcionalidades desta API, anexamos um exemplo de co
 
 
 ## Projeto desenvolvido por:
-
-- Amanda Gomes Lobo 🍅
-- Fernanda Alcionê de Souza 🍉
-- Gustavo Walter Bartel Dolzan 🍒
-- Igor Silva Fernandes 🍇
-- Leonardo Henrique Correia dos Santos 🥝
-- Thaíssa Carrafa do Nascimento 🍓
+<table>
+<tr>
+<td align="center"><a href="https://github.com/amanda-lobo1"><img style="border-radius: 50%;" src="https://github.com/amanda-lobo1.png" width="100px;" alt="Amanda Lobo"/><br /><sub><b>Amanda Lobo</b></sub></a><br/></td>
+<td align="center"><a href="https://github.com/fernandaadesouza"><img style="border-radius: 50%;" src="https://github.com/fernandaadesouza.png" width="100px;" alt="Fernanda de Souza"/><br /><sub><b>Fernanda de Souza</b></sub></a><br/></td>
+<td align="center"><a href="https://github.com/gugadolzan"><img style="border-radius: 50%;" src="https://github.com/gugadolzan.png" width="100px;" alt="Gustavo Dolzan"/><br /><sub><b>Gustavo Dolzan</b></sub></a><br/></td> 
+<td align="center"><a href="https://github.com/IgorFernandesMeli"><img style="border-radius: 50%;" src="https://github.com/IgorFernandesMeli.png" width="100px;" alt="Igor Fernandes"/><br /><sub><b>Igor Fernandes</b></sub></a><br/></td>
+<td align="center"><a href="https://github.com/eliHC"><img style="border-radius: 50%;" src="https://github.com/eliHC.png" width="100px;" alt="Leonardo Henrique"/><br /><sub><b>Leonardo Henrique</b></sub></a><br/></td>
+<td align="center"><a href="https://github.com/thaissacarrafa"><img style="border-radius: 50%;" src="https://github.com/thaissacarrafa.png" width="100px;" alt="Thaissa Carrafa"/><br /><sub><b>Thaissa Carrafa</b></sub></a><br/></td>
+</table>

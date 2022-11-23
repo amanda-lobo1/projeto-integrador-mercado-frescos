@@ -1,16 +1,20 @@
 package com.meli.projetointegradormelifrescos.model;
 
-import com.fasterxml.jackson.annotation.*;
 import com.meli.projetointegradormelifrescos.enums.Category;
+import lombok.*;
 import java.math.*;
 import java.util.List;
 import javax.persistence.*;
-import lombok.*;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+
+import com.fasterxml.jackson.annotation.*;
 
 @Entity
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
 public class Announcement {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -28,6 +32,10 @@ public class Announcement {
     @Column(nullable = false)
     private Category category;
 
+    @Max(value = 5, message = "the maximum score value is 5")
+    @Min(value = 1, message = "the minimum score value is 1")
+    private Double avarageEvaluation;
+
     @ManyToOne
     @JoinColumn(name = "seller")
     @JsonIgnoreProperties("announcement")
@@ -35,6 +43,7 @@ public class Announcement {
     private Seller seller;
 
     @OneToMany(mappedBy = "announcement")
-    @JsonManagedReference
-    private List<PurchaseProduct> purchaseProducts;
+    @JsonIgnore
+    private List<Feedback> feedbacks;
+
 }

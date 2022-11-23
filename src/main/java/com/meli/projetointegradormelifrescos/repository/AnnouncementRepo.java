@@ -12,7 +12,7 @@ import com.meli.projetointegradormelifrescos.model.Announcement;
 import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface AnnoucementRepo extends JpaRepository<Announcement, Long> {
+public interface AnnouncementRepo extends JpaRepository<Announcement, Long> {
     List<Announcement> findAll();
 
     List<Announcement> findAllByCategory(String category);

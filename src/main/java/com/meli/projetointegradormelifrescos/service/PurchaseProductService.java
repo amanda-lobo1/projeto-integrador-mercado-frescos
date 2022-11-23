@@ -26,7 +26,7 @@ public class PurchaseProductService implements IPurchaseProductService {
     private PurchaseProductRepo purchaseProductRepo;
 
     @Autowired
-    private AnnoucementRepo annoucementRepo;
+    private AnnouncementRepo annoucementRepo;
 
     /***
      *   message Registre um pedido com a lista de produtos
